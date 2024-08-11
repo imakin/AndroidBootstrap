@@ -1,5 +1,7 @@
 My starter project files for android app. Do Star to let me know if it's useful.
 
+Loaded with tools, using alpinejs, material design, parcel
+
 Copyright (c) 2024 Muhammad Izzulmakin
 
 How to

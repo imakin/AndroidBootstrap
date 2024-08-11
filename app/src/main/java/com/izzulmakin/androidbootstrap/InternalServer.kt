@@ -10,7 +10,7 @@ package com.izzulmakin.androidbootstrap
  *  * SPDX-License-Identifier: EPL-2.0
  *  *******************************************************************************/
  *
- * @purpose: the web server for androi
+ * @purpose: the web server for android
  * @author: Muhammad Ramdan Izzulmakin
  * @date: 2024-August
  */
