@@ -1,0 +1,12 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.html": ["@parcel/transformer-html"]
+  },
+  "namers": ["@parcel/namer-default"],
+  "packagers": {
+    "*.js": "@parcel/packager-js",
+    "*.css": "@parcel/packager-css",
+    "*.html": "@parcel/packager-html"
+  }
+}

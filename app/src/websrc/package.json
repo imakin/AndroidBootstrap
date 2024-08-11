@@ -1,0 +1,19 @@
+{
+  "name": "androidbootstrap",
+  "version": "1.0.0",
+  "author": "Muhammad Ramdan Izzulmakin",
+  "license": "MIT",
+  "dependencies": {
+    "@material/web": "^1.5.1",
+    "alpinejs": "^3.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.12.0",
+    "node-sass": "^9.0.0",
+    "parcel": "^2.12.0"
+  },
+  "scripts": {
+    "dev": "yarn parcel src/index.html",
+    "build": "rm -rf ./dist && yarn parcel build --config ./config/.parcelrc src/index.html --no-content-hash && rm -rf ../main/assets/web/ && cp -R ./dist ../main/assets/web"
+  }
+}
